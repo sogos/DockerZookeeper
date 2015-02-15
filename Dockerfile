@@ -21,4 +21,4 @@ VOLUME  ["/var/lib/zookeeper"]
 
 # Start Supervisor
 ENTRYPOINT ["/opt/run", "/bin/bash"]
-
+EXPOSE 2181
